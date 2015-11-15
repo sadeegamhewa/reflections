@@ -1,0 +1,13 @@
+* What happens when you initialize a repository? Why do you need to do it?
+
+It marks the directory as a git directory for tracking.
+
+* Which file(s) will you add?
+
+I will add reflections 1 file to staging.
+
+* How is the staging area different from the working directory and the
+  repository? What value do you think it offers?
+
+It allows you to create logical groups of commits by putting files that are
+ready to be committed to staging and pushing them together.  
