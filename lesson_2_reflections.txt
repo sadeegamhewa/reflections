@@ -10,4 +10,32 @@ I will add reflections 1 file to staging.
   repository? What value do you think it offers?
 
 It allows you to create logical groups of commits by putting files that are
-ready to be committed to staging and pushing them together.  
+ready to be committed to staging and pushing them together.
+
+* How can you use the staging area to make sure you have one commit per logical
+  change?
+
+You add files required for a logical change to the staging area with git add
+then commit those changes together from staging to repo.
+
+* What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+When you are making experimental changes, you want to create a branch and do
+the changes and ask them to be merged to master when it's ready.
+
+* How do the diagrams help to visualize the branch structure?
+
+It helps to get an understanding of the structure.
+
+* What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+Changes from both branches are in the latest commit. That way we can see when
+the branches were created and when they were merged.
+
+* What are the pros and cons of Git's automatic merging vs always doing merges
+manually?
+
+Helps when the changes are obvious - saves time. Manual is good for cases that
+git is not sure so that it doesn't go and do merges it shouldn't.
